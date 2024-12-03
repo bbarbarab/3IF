@@ -1,0 +1,93 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://bbarbarab.github.io/3IF/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in bbarbarab/3IF project"
+        ]
+    },
+    "items": [
+        {
+            "id": "https://bbarbarab.github.io/3IF/images/IT-FC0155_DDL19-0700-0001/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "IT-FC0155_DDL19-0700-0001"
+                ]
+            },
+            "height": 4050,
+            "width": 2800,
+            "items": [
+                {
+                    "id": "https://bbarbarab.github.io/3IF/images/IT-FC0155_DDL19-0700-0001/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://bbarbarab.github.io/3IF/images/IT-FC0155_DDL19-0700-0001/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://bbarbarab.github.io/3IF/images/IT-FC0155_DDL19-0700-0001/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 88,
+                                                "height": 127
+                                            },
+                                            {
+                                                "width": 175,
+                                                "height": 254
+                                            },
+                                            {
+                                                "width": 350,
+                                                "height": 507
+                                            },
+                                            {
+                                                "width": 700,
+                                                "height": 1013
+                                            },
+                                            {
+                                                "width": 1400,
+                                                "height": 2025
+                                            },
+                                            {
+                                                "width": 2800,
+                                                "height": 4050
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 2800,
+                                        "@id": "https://bbarbarab.github.io/3IF/images/IT-FC0155_DDL19-0700-0001",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 4050,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://bbarbarab.github.io/3IF/images/IT-FC0155_DDL19-0700-0001/canvas/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 88,
+    "height" : 127
+  }, {
+    "width" : 175,
+    "height" : 254
+  }, {
+    "width" : 350,
+    "height" : 507
+  }, {
+    "width" : 700,
+    "height" : 1013
+  }, {
+    "width" : 1400,
+    "height" : 2025
+  }, {
+    "width" : 2800,
+    "height" : 4050
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 2800,
+  "@id" : "https://bbarbarab.github.io/3IF/images/IT-FC0155_DDL19-0700-0001",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 4050
+}
