@@ -1,0 +1,13 @@
+{
+  "id" : "https://bbarbarab.github.io/3IF/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in bbarbarab/3IF project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://bbarbarab.github.io/3IF/manifests/manifest.json",
+    "label" : "La difesa delle lavoratrici"
+  } ]
+}
