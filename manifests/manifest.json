@@ -1,0 +1,96 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://bbarbarab.github.io/3IF/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "La difesa delle lavoratrici",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Rivista molto bella e importante",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by-nc/4.0/",
+  "attribution" : "CC Biblioteca Gino Bianco",
+  "sequences" : [ {
+    "@id" : "http://a5cf03a6-7d3e-4758-8854-1d78929268ba",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://efdb0386-efe1-46ab-a239-b378d603785e",
+      "@type" : "sc:Canvas",
+      "label" : "pagina 1",
+      "height" : 4928,
+      "width" : 3264,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://ff93ad70-61c5-4d73-9607-43cc6e11c49a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://127.0.0.1:8182/iiif/2/DDL01-2200_1.tif/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/DDL01-2200_1.tif",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 10000000,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 4928,
+          "width" : 3264
+        },
+        "on" : "http://efdb0386-efe1-46ab-a239-b378d603785e"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://3de409f7-c036-4c27-98ab-e501d7dd6397",
+      "@type" : "sc:Canvas",
+      "label" : "pagina 2",
+      "height" : 4928,
+      "width" : 3264,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://60972f74-f758-4dc3-b725-0f74b6cdeb86",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://127.0.0.1:8182/iiif/2/DDL01-2200_2.tif/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/DDL01-2200_2.tif",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 10000000,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 4928,
+          "width" : 3264
+        },
+        "on" : "http://3de409f7-c036-4c27-98ab-e501d7dd6397"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://efdb0386-efe1-46ab-a239-b378d603785e" ]
+  } ]
+}
