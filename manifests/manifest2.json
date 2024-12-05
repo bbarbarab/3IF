@@ -1,0 +1,127 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://bbarbarab.github.io/3IF/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "La difesa delle lavoratrici",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Il 7 gennaio 1912 inizia la pubblicazione de La Difesa delle Lavoratrici, primo periodico su scala nazionale delle donne socialiste.",
+    "@language" : "it"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Biblioteca Gino Bianco",
+  "sequences" : [ {
+    "@id" : "http://ba5cfa18-2745-4b80-aa00-99bb32097ccc",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://488d7dff-0127-4960-a239-604ee96ca1f8",
+      "@type" : "sc:Canvas",
+      "label" : "pagina 1",
+      "height" : 3946,
+      "width" : 2748,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://d9a6bd1b-0d16-4390-a8d0-c8bd52048c80",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://bbarbarab.github.io/3IF/images/DLA09-0100-0100/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://bbarbarab.github.io/3IF/images/DLA09-0100-0100",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 3946,
+          "width" : 2748
+        },
+        "on" : "http://488d7dff-0127-4960-a239-604ee96ca1f8"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://901c7db5-d0de-41a0-90ce-9fd103720c77",
+      "@type" : "sc:Canvas",
+      "label" : "pagina 2",
+      "height" : 3946,
+      "width" : 2748,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://5c467ba5-3313-4d6c-a840-b823e74c7ee6",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://bbarbarab.github.io/3IF/images/DLA09-0100-0200/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://bbarbarab.github.io/3IF/images/DLA09-0100-0200",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 3946,
+          "width" : 2748
+        },
+        "on" : "http://901c7db5-d0de-41a0-90ce-9fd103720c77"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://8108de2a-1ab3-42fc-a02c-e34ab46a8045",
+      "@type" : "sc:Canvas",
+      "label" : "pagina 3",
+      "height" : 3946,
+      "width" : 2748,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://7b31b496-503e-4efa-807f-4fe1349a396d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://bbarbarab.github.io/3IF/images/DLA09-0100-0300/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://bbarbarab.github.io/3IF/images/DLA09-0100-0300",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 3946,
+          "width" : 2748
+        },
+        "on" : "http://8108de2a-1ab3-42fc-a02c-e34ab46a8045"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://2d5ae98b-161a-41fe-9191-a28cd71e375e",
+      "@type" : "sc:Canvas",
+      "label" : "pagina 4",
+      "height" : 3946,
+      "width" : 2748,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://1185f740-0733-4676-9460-86f9e35b52d2",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://bbarbarab.github.io/3IF/images/DLA09-0100-0400/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://bbarbarab.github.io/3IF/images/DLA09-0100-0400",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 3946,
+          "width" : 2748
+        },
+        "on" : "http://2d5ae98b-161a-41fe-9191-a28cd71e375e"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
