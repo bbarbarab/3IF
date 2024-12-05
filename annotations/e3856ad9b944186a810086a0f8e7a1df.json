@@ -1,0 +1,72 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "<a href=\"https://www.bibliotecaginobianco.it\" target=\"_blank\" rel=\"noopener\"><img src=\"https://www.bibliotecaginobianco.it/images_home/testata-sito-gino-bianco.jpg\" alt=\"sito Biblioteca Gino Bianco\" width=\"370\" height=\"87\" />bibliotecaginobianco.it",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p><a href=\"https://www.bibliotecaginobianco.it\" target=\"_blank\" rel=\"noopener\"><strong><img src=\"https://www.bibliotecaginobianco.it/images_home/testata-sito-gino-bianco.jpg\" alt=\"sito Biblioteca Gino Bianco\" width=\"370\" height=\"87\" /></strong>bibliotecaginobianco.it</a></p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/81715483",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2024-12-05T09:51:32",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1733392292352",
+    "dcterms:modified" : "2024-12-05T10:03:30",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://bbarbarab.github.io/3IF/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=517,1166,2104,1730"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M825.41951,1419.31324c194.25271,-145.27372 468.27763,-253.45413 743.63046,-253.32488v0v0c275.35283,0.12925 515.23135,101.33028 743.63046,253.32488c228.39911,151.9946 317.17495,383.60503 308.02182,611.58037c-9.15313,227.97534 -116.23524,452.31558 -308.02182,611.58037c-191.78658,159.26479 -468.27763,253.45413 -743.63046,253.32488c-275.35283,-0.12925 -549.56745,-94.57708 -743.63046,-253.32488c-194.06301,-158.7478 -307.97439,-381.79556 -308.02182,-611.58037c-0.04743,-229.78481 113.76911,-466.30665 308.02182,-611.58037z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;editable&quot;:true}\" id=\"ellipse_b45902d0-a05b-488e-9bb2-ccfa3403aff1\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#ff00ff\" stroke-width=\"42.50628\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://488d7dff-0127-4960-a239-604ee96ca1f8"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "La Difesa delle Lavoratrici\nRivista quindicinale. Direttrice: Anna <a href=\"https://www.fondazioneannakuliscioff.it/\" target=\"_blank\" rel=\"noopener\">Anna Kuliscioff, poi Angelica Balabanoff.\n&nbsp;",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<h2>La Difesa delle Lavoratrici</h2>\n<h2>Rivista quindicinale. Direttrice: Anna <a href=\"https://www.fondazioneannakuliscioff.it/\" target=\"_blank\" rel=\"noopener\">Anna Kuliscioff</a>, poi Angelica Balabanoff.</h2>\n<p>&nbsp;</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/81715483",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2024-12-05T09:46:08",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1733391966913",
+    "dcterms:modified" : "2024-12-05T09:46:08",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://bbarbarab.github.io/3IF/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=207,196,2375,590"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M206.61939,196.36266h1187.63375v0h1187.63375v295.0018v295.0018h-1187.63375h-1187.63375v-295.0018z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_a8014f77-f7f1-4c80-9b0e-b5e19f7460b3\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://488d7dff-0127-4960-a239-604ee96ca1f8"
+    } ]
+  } ],
+  "@id" : "https://bbarbarab.github.io/3IF/annotations/e3856ad9b944186a810086a0f8e7a1df.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
