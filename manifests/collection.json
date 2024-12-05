@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://bbarbarab.github.io/3IF/manifests/manifest.json",
     "label" : "La difesa delle lavoratrici"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://bbarbarab.github.io/3IF/manifests/manifest2.json",
+    "label" : "La difesa delle lavoratrici"
   } ]
 }
