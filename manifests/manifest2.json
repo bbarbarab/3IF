@@ -3,6 +3,11 @@
   "@id" : "https://bbarbarab.github.io/3IF/manifests/manifest2.json",
   "@type" : "sc:Manifest",
   "label" : "La difesa delle lavoratrici",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/81715483/347110d3c52b09fb87603244b7dc89b4/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
   "metadata" : [ ],
   "description" : [ {
     "@value" : "Il 7 gennaio 1912 inizia la pubblicazione de La Difesa delle Lavoratrici, primo periodico su scala nazionale delle donne socialiste.",
@@ -41,6 +46,11 @@
           "width" : 2748
         },
         "on" : "http://488d7dff-0127-4960-a239-604ee96ca1f8"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://bbarbarab.github.io/3IF/annotations/e3856ad9b944186a810086a0f8e7a1df.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
       } ],
       "related" : ""
     }, {
