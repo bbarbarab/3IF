@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://bbarbarab.github.io/3IF/annotations/e3856ad9b944186a810086a0f8e7a1df.json" ],
+  "@id" : "https://bbarbarab.github.io/3IF/annotations/collection.json",
+  "label" : "All annotations loaded in bbarbarab/3IF project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
